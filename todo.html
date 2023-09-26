@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ak todolist</title>
+    <link rel="icon" href="images/todolist.png">
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo">
+            <h2>To-Do List <img src="images/todolist.png" alt="image"></h2>
+            <div class="row">
+                <input type="text" id="inputbox" placeholder="Add your list">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <audio id="checkSound" src="images/check-sound.mp3" preload="auto"></audio>
+
+            <ul id="listcontainer">
+                <!--<li class="checked">task1</li>
+                <li>task2</li>-->
+            </ul>
+        </div>
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>
